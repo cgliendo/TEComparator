@@ -8,8 +8,10 @@ Here are some examples of output:
 
 ## Running the app
 
-In order to get the app running, first start the server by running 
+In order to get the app running, first install dependencies and start the server.
+The server listens for requests coming in from the front-end application and processes data.
 ```
+npm install
 node server/server.js
 ```
 
