@@ -1,0 +1,18 @@
+/*Created by bash script*/
+.Toolbar{
+    position: fixed;
+    /* position: absolute; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: space-around;
+    background-color: var(--dark);
+    color: var(--on-dark-text);
+    /* bottom: 0px; */
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 1rem;
+    z-index: 50;
+    /* box-sizing: border-box; */
+}
+

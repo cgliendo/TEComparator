@@ -1,0 +1,10 @@
+/*Created by bash script*/
+.Exhibit{
+    /* background-color: var(--white); */
+    width: 100%;
+    min-height: calc(100vh - 8rem);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+

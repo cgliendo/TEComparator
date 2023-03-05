@@ -1,0 +1,38 @@
+#!/bin/bash
+NAME=$1
+
+CSSFILE="/*Created by bash script*/
+.$NAME{
+    background-color: tomato;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+"
+
+JSFILE="//Created by bash script
+import styles from './$NAME.module.css';
+
+export const $NAME = (props) => {
+    return <div className={styles.$NAME}>$NAME</div>;
+    }
+"
+
+if [ -f $NAME.js ]; then
+    echo Component $NAME exists!
+    echo
+    echo Please pick a different name.
+fi;
+
+if [ ! -f $NAME.js ]; then
+    echo "$JSFILE" > ./$NAME.js
+    echo
+    echo "$CSSFILE" > ./$NAME.module.css
+    echo Creating $NAME.js and $NAME.module.css
+    echo
+    echo import from root:
+    echo import $NAME from \"./components/$NAME\"
+    echo 
+    echo import from components:
+    echo import $NAME from \"./$NAME\"
+fi;
+

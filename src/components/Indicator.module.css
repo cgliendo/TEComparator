@@ -1,0 +1,62 @@
+/*Created by bash script*/
+/* .Indicator *{
+    border: 1px solid tomato;
+} */
+.Indicator{
+    background-color: var(--off-white-1);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0.55rem;
+    border: 3px solid transparent;
+}
+.IndicatorTitle{
+    /* display: flex; */
+    /* align-items: first baseline; */
+    margin-bottom: 0.5rem;
+}
+.Source, .Frequency{
+    font-size: 0.8rem;
+}
+
+
+.IndicatorGroup{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.IndicatorTitle h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-grow: 2;
+}
+
+.Tag{
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+.Tag, .Unit, .Frequency, .Source{
+    color: var(--off-text);
+}
+.Value{
+    font-size: 1.55rem;
+    font-weight: 800;
+}
+.Unit{
+    font-size: 0.75rem;
+}
+.Date{
+    font-weight: 300;
+    font-size: 0.75rem;
+    min-height: 1.2rem;
+}
+
+.outline{
+    border: 3px solid var(--color-green);
+}
+
+.positive{
+    color: var(--color-green);
+}
+.negative{
+    color: var(--color-red);
+}

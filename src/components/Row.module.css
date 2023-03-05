@@ -1,0 +1,17 @@
+/*Created by bash script*/
+.Row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding: 1rem; */
+    border-radius: 1rem;
+}
+.center{
+    justify-content: center;    
+}
+.spacebetween{
+    justify-content: space-between;
+}
+.spacearound{
+    justify-content: space-around;
+}
