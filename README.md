@@ -1,6 +1,6 @@
 # TE Comparator
 
-This is a web application that allows you to compare seleceted countries by indicators provided by the TE API.
+This is a web application that allows you to compare seleceted countries by indicators provided by the TE API. It uses React to create the frontend, and a ws server to handle and process requests.
 
 Here are some examples of output:
 
