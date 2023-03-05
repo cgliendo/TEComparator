@@ -4,7 +4,6 @@ This is a web application that allows you to compare seleceted countries by indi
 
 Here are some examples of output:
 
-![example-1](./screenshots/example-1.png)
 ![example-2](./screenshots/example-2.png)
 
 ## Running the app
